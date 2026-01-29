@@ -15,13 +15,13 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "zh-TW"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "臨床導向因果推論筆記"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+subtitle                 : "臨床導向的因果推論與流行病學"
+name                     : "Hsuan Su"
+description              : "以臨床問題為核心的因果推論與臨床流行病學研究。"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -113,10 +113,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Hsuan Su"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : >-
+    我是一名具有臨床與研究雙重背景的急診醫師，目前於台灣攻讀流行病學博士。臨床經驗讓我關注真實醫療決策中的不確定性與限制，
+    而研究訓練則促使我以因果推論的框架重新思考這些問題，嘗試將臨床直覺轉化為可被嚴謹回答的因果問題。我的研究興趣主要集中於因果推論與
+    臨床流行病學，特別關注如何利用觀察性資料逼近隨機試驗的邏輯，並釐清實際所估計的效果及其適用族群。我長期關注 target trial emulation、
+    IPTW/IPCW、g-formula、principal stratification 與 mediation analysis 等方法，並高度重視 DAG、identifiability、selection bias 與
+    collider bias 等核心假設與偏差來源。在研究主題上，我多以真實臨床問題為出發點，例如 OPAT 成效、顯影劑相關急性腎損傷與氣喘急性發作預防策略等，
+    這些問題多半難以依賴隨機試驗回答，因此更需要在觀察性資料中謹慎處理時間變動混雜與治療策略定義。整體而言，我將自己定位為一位臨床導向的因果推論研究者：
+    相較於追求表面上的顯著結果，我更重視研究設計的可識別性與推論的合理性，關心的是「這個效果是否在理論上成立、在臨床上可信、在決策上有意義」。
+    這種對方法論高度敏感、以結構化思維拆解問題的研究風格，是我最核心的學術特質。
+  location         : "台灣"
   email            :
   links:
     - label: "Email"
